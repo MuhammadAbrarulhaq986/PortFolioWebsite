@@ -9,8 +9,11 @@ const Footer = () => {
       <div className="footer-inner">
         {/* Left: Branding */}
         <div className="footer-brand">
-          <span className="footer-logo">[ ABRAR'S DOJO ]</span>
-          <span className="footer-tagline">Driven by discipline.</span>
+          {/*<span className="footer-logo">[ ABRAR'S DOJO ]</span>*/}
+          <span className="footer-logo">
+            [ With_Great_Power_Comes_Great_Electricity_Bill ]
+          </span>
+          {/*<span className="footer-tagline">Driven by discipline.</span>*/}
         </div>
 
         {/* Center: Status */}

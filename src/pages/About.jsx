@@ -115,12 +115,12 @@ const About = () => {
         className={`skills-section section-reveal ${visible ? "revealed" : ""}`}
         style={{ animationDelay: "0.25s" }}
       >
-        <h2>Core Proficiency</h2>
+        {/*<h2>Core Proficiency</h2>
         <div className="card skill-bars-card">
           {Object.entries(skillLevels).map(([name, level], i) => (
             <SkillBar key={name} name={name} level={level} delay={i * 0.1} />
           ))}
-        </div>
+        </div>*/}
       </section>
 
       {/* ── Technical Arsenal ── */}
@@ -128,7 +128,7 @@ const About = () => {
         className={`arsenal-section section-reveal ${visible ? "revealed" : ""}`}
         style={{ animationDelay: "0.4s" }}
       >
-        <h2>Technical Arsenal</h2>
+        <h2>Technical Information</h2>
         <div className="skills-grid">
           {[
             { title: "Languages", items: skills.languages, icon: "⟨/⟩" },

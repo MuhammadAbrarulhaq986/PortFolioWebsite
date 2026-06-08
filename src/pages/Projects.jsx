@@ -48,7 +48,7 @@ const ProjectCard = ({ proj, index }) => {
           rel="noreferrer"
           className="arc-link-action"
         >
-          <span>Inspect System</span>
+          <span>Inspect Project</span>
           <span className="link-arrow">→</span>
         </a>
       </div>
@@ -67,10 +67,8 @@ const Projects = () => {
       <header
         className={`projects-header section-reveal ${visible ? "revealed" : ""}`}
       >
-        <h2>Active Arcs</h2>
-        <p className="projects-sub">
-          Systems designed, battles fought, domains conquered.
-        </p>
+        <h2>Active Projects</h2>
+        <p className="projects-sub">My current projects.</p>
       </header>
 
       <div className="portfolio-project-grid">
