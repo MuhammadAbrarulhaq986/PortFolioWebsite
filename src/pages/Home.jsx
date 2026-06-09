@@ -32,10 +32,10 @@ function useTypewriter(words, speed = 80, pause = 2000) {
 }
 
 const roles = [
-  "Frontend Developer",
+  "Full stack Developer",
+  //"React Developer",
   //"UI Architect",
   //"Taekwondo Practitioner",
-  "React Developer",
   //"System Builder",
 ];
 
@@ -79,27 +79,28 @@ const Home = () => {
 
         {/* Description */}
         <p className="hero-description">
-          Balancing technical execution with creative intent. Building robust,
-          responsive architectures shaped by continuous training — from the dojo
-          to the IDE.
+          Balancing technical execution with creative intent. Building robust, &
+          responsive.
         </p>
 
         {/* CTA row */}
         <div className="cta-row">
-          <Link to="/contact" className="btn btn--primary">
+          {/*<Link to="/contact" className="btn btn--primary">
             Initiate Contact
-          </Link>
-          <Link to="/projects" className="btn btn--ghost">
+          </Link>*/}
+          {/*<Link to="/projects" className="btn btn--ghost">
             View Arsenal
-          </Link>
+          </Link>*/}
         </div>
 
         {/* Stats strip */}
         <div className="stats-strip">
           {[
             { label: "Projects", val: "100+" },
-            { label: "Tech Stack", val: "12+" },
-            //{ label: "Belt Rank", val: "3rd Dan" },
+            { label: "Libraries_&_Frameworks", val: "12" },
+            { label: "Language's", val: "6" },
+            { label: "Tools_&_System", val: "11" },
+            //{ label: "Core_Concepts", val: "8" },
           ].map(({ label, val }) => (
             <div className="stat-item" key={label}>
               <span className="stat-val">{val}</span>
@@ -116,7 +117,7 @@ const Home = () => {
             <span className="highlight-cyan">Refining Performance Systems</span>
           </p>
           <p className="terminal-quote">
-            "Train until your sensei becomes your student." — The Dojo
+            "Knowledge is limiteless so become a student Knowledge."
           </p>
         </div>
       </section>

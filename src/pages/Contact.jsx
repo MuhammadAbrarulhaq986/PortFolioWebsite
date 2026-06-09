@@ -38,7 +38,7 @@ const Contact = () => {
       <section
         className={`contact-viewport section-reveal ${visible ? "revealed" : ""}`}
       >
-        <h2>Secure Comms</h2>
+        <h2>Contact link's</h2>
 
         <p className="contact-subtitle">
           Transmission channel open. Whether it's a project, collaboration, or
@@ -110,17 +110,17 @@ const Contact = () => {
           </div>
 
           {/* Response time footer */}
-          <div className="terminal-footer">
+          {/*<div className="terminal-footer">
             <span className="footer-tag">AVG_RESPONSE_TIME</span>
             <span className="footer-val">&lt; 24 HOURS</span>
-          </div>
+          </div>*/}
         </div>
 
         {/* ── Availability banner ── */}
         <div className="availability-banner">
           <span className="avail-dot" />
           <span className="avail-text">
-            Currently open to freelance, contract, and full-time opportunities
+            Currently looking for an intership/Job opportunitie.
           </span>
         </div>
       </section>
