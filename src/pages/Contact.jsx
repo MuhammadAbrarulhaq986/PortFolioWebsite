@@ -40,6 +40,7 @@ const Contact = () => {
       >
         <h2>Contact link's</h2>
 
+
         <p className="contact-subtitle">
           Transmission channel open. Whether it's a project, collaboration, or
           just a sparring session — establish your connection below.
