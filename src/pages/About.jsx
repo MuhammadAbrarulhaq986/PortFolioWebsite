@@ -58,7 +58,7 @@ const education = [
       "Completed an intensive full-stack development program covering modern frontend standards, backend integration, and production-grade application architecture.",
   },
   {
-    degree: "Intermediate / Pre-Engineering",
+    degree: "Intermediate / Computer Science",
     institution: "Govt. College for Men, Nazimabad",
     timeline: "2021 — 2022",
     details:
@@ -110,14 +110,14 @@ const About = () => {
             hooks, context, and state management with Redux.
           </p>
 
-          <p className="body-narrative" style={{ marginTop: "1rem" }}>
+          {/*<p className="body-narrative" style={{ marginTop: "1rem" }}>
             I have built and deployed multiple production applications — ranging
             from full-stack blogging platforms and real-time data dashboards to
             interactive frontend tools — all hosted on Vercel with clean,
             maintainable codebases. I approach every project with a focus on
             performance, scalability, and user experience, applying the same
             discipline to code that I apply to continuous learning.
-          </p>
+          </p>*/}
 
           <div className="seeking-banner">
             <span className="seeking-dot" />

@@ -40,7 +40,6 @@ const Contact = () => {
       >
         <h2>Contact link's</h2>
 
-
         <p className="contact-subtitle">
           Transmission channel open. Whether it's a project, collaboration, or
           just a sparring session — establish your connection below.
@@ -101,6 +100,12 @@ const Contact = () => {
               label="LINKEDIN"
               value="linkedin.com/in/abrar"
               href="https://www.linkedin.com/feed/"
+              delay={0.6}
+            />
+            <ContactRow
+              label="INSTAGRAM"
+              value="instagram.com/abrar"
+              href="https://www.instagram.com/tkd_abrar/"
               delay={0.6}
             />
             {/*<ContactRow
